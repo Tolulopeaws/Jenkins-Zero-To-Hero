@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: tolex/ultimate-cicd:replaceImageTag
+        image: tolex/ultimate-cicd:4
         ports:
         - containerPort: 8080
